@@ -1,0 +1,465 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap'); */
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../font/SFPRODISPLAYREGULAR.OTF') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../font/SFPRODISPLAYMEDIUM.OTF') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../font/SFPRODISPLAYBOLD.OTF') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+    color: #000000;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+body {
+    /* background-color: rgb(0, 0, 0); */
+    color: #FFF;
+}
+
+.py-100 {
+    padding: 100px 0;
+}
+
+.fm-outfit {
+    font-family: "Outfit", sans-serif;
+}
+
+.gray-text {
+    color: rgba(255, 255, 255, 0.7);
+}
+.text-black{color: #000;}
+
+/*------------------------------------- *********** Section 1 ********** ------------------------------*/
+
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+.font40 {
+    font-size: 40px;
+}
+
+.font20 {
+    font-size: 20px;
+}
+
+.font22 {
+    font-size: 22px;
+}
+
+.font24 {
+    font-size: 24px;
+}
+
+.font26 {
+    font-size: 26px;
+}
+
+.font28 {
+    font-size: 28px;
+}
+
+.font30 {
+    font-size: 30px;
+}
+
+.font32 {
+    font-size: 32px;
+}
+
+.font34 {
+    font-size: 34px;
+}
+
+.font35 {
+    font-size: 35px;
+}
+
+.font36 {
+    font-size: 36px;
+}
+
+.font38 {
+    font-size: 38px;
+}
+
+.font40 {
+    font-size: 40px;
+}
+
+.font50 {
+    font-size: 50px;
+}
+.tetx-align-start{text-align: start;}
+.relative{
+    position: relative;
+}
+
+.header-section{
+    background-image: url(../images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.top-header{
+    /* position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; */
+}
+.top-header p{
+    text-align: center;
+font-family: "SF Pro Display";
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 140% */
+letter-spacing: 5px;
+text-transform: uppercase;
+ }
+ .sf-pr-img{
+    margin-top: 40px;
+ }
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sf-pr-img.spin {
+  animation: spin 2s linear infinite;
+}
+.header-sec-img{
+    border-radius: 30px;
+    margin-top: 100px;
+}
+.Tailor-section{
+    padding-top: 270px;
+}
+.Tailor-section h2,
+.serve-section h2{
+    color: #000;
+text-align: center;
+font-family: "SF Pro Display";
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 100px; /* 156.25% */
+letter-spacing: 6.4px;
+text-transform: uppercase;
+}
+.tailored-ul{
+   padding-top: 140px; 
+   width: 100%;
+   max-width: 1060px;
+   margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.tailored-ul li{
+    border-left: 1px solid rgba(0, 0, 0, 0.25);
+    padding: 15px 40px 40px 40px;
+}
+.tailored-ul li h3{
+    font-family: "SF Pro Display";
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; /* 66.667% */
+letter-spacing: 4.8px;
+background: linear-gradient(270deg, #8643C6 0%, #3063B6 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+display: inline-block;
+padding-top: 25px;
+}
+.tailored-ul li p{
+color: #818181;
+font-family: "SF Pro Display";
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px; /* 150% */
+letter-spacing: 1.2px;
+padding-top: 20px;
+}
+.description-img{
+    margin-top: 170px;
+}
+.serve-section{
+    padding-top: 80px;
+}
+.serve-section .job-button{
+    width: 100%;
+    max-width: 399px;
+    color: #000;
+font-family: "SF Pro Display";
+font-size: 19px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.95px;
+border-radius: 10px;
+background: #FFF;
+box-shadow: 5px 5px 25px 0 rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(10px);
+padding: 10px 26px;
+border: unset;
+}
+.readt-for-section{
+    padding-top: 200px;
+}
+.ready-for{
+    position: relative;
+}
+.ready-for::after{
+     content: "";
+    position: absolute;
+   background-image: url(../images/ready-right.png);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 310px;
+    left: 0;
+    top: 100px;
+    background-size: 100% 100%;
+    /* transform: rotate(-20deg); */
+    z-index: -1;
+   
+}
+.ready-for::before{
+    content: "";
+    position: absolute;
+   background-image: url(../images/ready-left.png);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 310px;
+    right: 0;
+    top: 100px;
+    background-size: 100% 100%;
+    /* transform: rotate(-20deg); */
+    z-index: -1;
+
+}
+.ready-right{
+ padding-top: 200px;
+/* width: 100%;
+margin: 0 auto; */
+text-align: center;
+/* max-width: 700px;
+margin: 0 auto; */
+}
+.ready-for h2{
+    /* background-color: #FFF; */
+   
+    text-align: center;
+font-family: "SF Pro Display";
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: 90px; /* 128.571% */
+letter-spacing: 7px;
+text-transform: uppercase;
+background: linear-gradient(180deg, #262626 17.14%, #4D4D4D 68.57%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+display: inline-block;
+background-color: #FFF;
+}
+
+
+/* butoon hover up */
+.button-top {
+    height: 45px;
+    line-height: 45px;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(81, 47, 235);
+   border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0.706592px 0.706592px -0.625px, rgba(0, 0, 0, 0.145) 0px 1.80656px 1.80656px -1.25px, rgba(0, 0, 0, 0.137) 0px 3.62176px 3.62176px -1.875px, rgba(0, 0, 0, 0.125) 0px 6.8656px 6.8656px -2.5px, rgba(0, 0, 0, 0.106) 0px 13.6468px 13.6468px -3.125px, rgba(0, 0, 0, 0.05) 0px 30px 30px -3.75px;
+    transform-origin: 50% 50% 0px;
+    opacity: 1;
+    cursor: pointer;
+    /* padding: 10px 15px; */
+    transition: 0.3s;
+    cursor: pointer;
+    display: block;
+    width: fit-content;
+    margin: 50px auto 0;
+}
+
+.button-top:hover {
+    background: rgb(81, 47, 235);
+}
+
+/* button-top UP */
+.button-top .label-up {
+    display: block;
+    margin: 0px 15px;
+    height: 100%;
+    position: relative;
+    top: 0%;
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-top:hover .label-up {
+    top: -100%;
+}
+.footer-section{
+    padding-top: 200px;
+}
+.footer-links{
+    gap: 120px;
+   
+}
+.footer-links a{
+    color: #000;
+text-align: center;
+font-family: "SF Pro Display";
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 42px; /* 175% */
+letter-spacing: 2.4px;
+text-decoration: none;
+border-bottom: 1px solid transparent;
+}
+.footer-links a:hover{
+    border-bottom: 1px solid #000;
+}
+.footer-bot p{
+    padding: 85px 0;
+    color: #818181;
+text-align: center;
+font-family: "SF Pro Display";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+letter-spacing: 0.9px;
+}
+
+@media screen and (max-width: 1440px){
+.logo-top{
+    width: 350px;
+}
+}
+
+@media screen and (max-width: 768px){
+.logo-top{
+    width: 250px;
+}
+.ready-for::before,
+.ready-for::after {
+    display: none;
+}
+}
+
+@media screen and (max-width: 500px){
+   .top-header p{
+    font-size: 30px;
+    line-height: 40px;
+   } 
+   .Tailor-section h2, .serve-section h2 {
+    font-size: 36px;
+    line-height: 50px;
+   }
+   .Tailor-section {
+    padding-top: 120px;
+}
+.header-sec-img{
+    margin-top: 30px;
+}
+.tailored-ul {
+    padding-top: 100px;
+    gap: 20px;
+    max-width: 100%;
+    /* padding: 0 10px; */
+}
+}
+    
+
