@@ -465,6 +465,9 @@ letter-spacing: 0.9px;
 .ready-for::after {
     display: none;
 }
+.ready-right {
+    padding-top: 0px;
+}
 }
 
 @media screen and (max-width: 500px){
