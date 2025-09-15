@@ -64,7 +64,7 @@ body {
 /*------------------------------------- *********** Section 1 ********** ------------------------------*/
 
 .container {
-    max-width: 1230px;
+    max-width: 1280px;
     padding: 0 15px;
 }
 
@@ -444,7 +444,7 @@ letter-spacing: 0.9px;
     font-size: 30px;
     line-height: 40px;
    } 
-   .Tailor-section h2, .serve-section h2 {
+   .Tailor-section h2, .serve-section h2, .ready-for h2 {
     font-size: 36px;
     line-height: 50px;
    }
@@ -460,6 +460,38 @@ letter-spacing: 0.9px;
     max-width: 100%;
     /* padding: 0 10px; */
 }
+.sf-pr-img{width: 80px;} 
+.footer-section {
+    padding-top: 90px;
 }
+}
+
+
+@media screen and (max-width: 400px){
+    .tailored-ul li h3, .Tailor-section h2, .serve-section h2 {
+    font-size: 30px;
+}
+.description-img {
+    margin-top: 100px;
+}
+.readt-for-section {
+    padding-top:30px;
+}
+.ready-right {
+    padding-top: 0px;
+}
+.footer-links {
+    gap: 20px;
+}
+.footer-links a {
+    font-size: 20px;
+    line-height: 30px;
+}
+    .logo-top {
+        width: 180px;
+    }
+}
+    
+
     
 
